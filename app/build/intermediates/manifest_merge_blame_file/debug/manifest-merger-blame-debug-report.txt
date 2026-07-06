@@ -1,0 +1,44 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.aiteam"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/data/data/com.termux/files/home/Ai/app/src/main/AndroidManifest.xml:3:5-66
+11-->/data/data/com.termux/files/home/Ai/app/src/main/AndroidManifest.xml:3:22-64
+12
+13    <application
+13-->/data/data/com.termux/files/home/Ai/app/src/main/AndroidManifest.xml:5:5-20:19
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.6.0] /data/data/com.termux/files/home/.gradle/caches/9.6.1/transforms/6311f663641364d255c488456894688b/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:extractNativeLibs="true"
+17        android:label="AI Team"
+17-->/data/data/com.termux/files/home/Ai/app/src/main/AndroidManifest.xml:6:9-32
+18        android:theme="@android:style/Theme.DeviceDefault" >
+18-->/data/data/com.termux/files/home/Ai/app/src/main/AndroidManifest.xml:7:9-59
+19        <activity
+19-->/data/data/com.termux/files/home/Ai/app/src/main/AndroidManifest.xml:9:9-18:20
+20            android:name="com.example.aiteam.MainActivity"
+20-->/data/data/com.termux/files/home/Ai/app/src/main/AndroidManifest.xml:10:13-41
+21            android:exported="true" >
+21-->/data/data/com.termux/files/home/Ai/app/src/main/AndroidManifest.xml:11:13-36
+22            <intent-filter>
+22-->/data/data/com.termux/files/home/Ai/app/src/main/AndroidManifest.xml:13:13-16:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->/data/data/com.termux/files/home/Ai/app/src/main/AndroidManifest.xml:14:17-68
+23-->/data/data/com.termux/files/home/Ai/app/src/main/AndroidManifest.xml:14:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->/data/data/com.termux/files/home/Ai/app/src/main/AndroidManifest.xml:15:17-76
+25-->/data/data/com.termux/files/home/Ai/app/src/main/AndroidManifest.xml:15:27-74
+26            </intent-filter>
+27        </activity>
+28    </application>
+29
+30</manifest>

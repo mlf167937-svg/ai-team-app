@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox android:id="@+id/gpt" android:text="GPT"/>
+    <CheckBox android:id="@+id/claude" android:text="Claude"/>
+    <CheckBox android:id="@+id/gemini" android:text="Gemini"/>
+    <CheckBox android:id="@+id/groq" android:text="Groq"/>
+    <CheckBox android:id="@+id/deepseek" android:text="DeepSeek"/>
+
+    <EditText
+        android:id="@+id/input"
+        android:hint="Masukkan prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/send"
+        android:text="Jalankan AI Team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/output"
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+
+</LinearLayout>

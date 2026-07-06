@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+id claude
+id deepseek
+id gemini
+id gpt
+id groq
+id input
+id output
+id send
+layout activity_main
