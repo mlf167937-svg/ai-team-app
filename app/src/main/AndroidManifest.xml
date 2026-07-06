@@ -1,10 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-
     <application
-        android:label="AI Team"
-        android:theme="@android:style/Theme.DeviceDefault">
+        android:label="AiTeam">
 
         <activity
             android:name=".MainActivity"
